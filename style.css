@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{ */
+    /* overflow: hidden; */
+
+/* } */
+.sidebar{
+    position: absolute;
+    background-color: rgb(194, 194, 194);
+    transition: transform 0.3s ease-in;
+    height: 130vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar li{
+    list-style: none;
+    padding: 30px 0;
+    font-size: 20px;
+}
+
+.sidebar li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 80vw;
+    padding: 15px;
+}
+.container{
+    display: flex;
+}
+.InfoContainer{
+    /* background-color: rgb(23, 250, 110); */
+    height: 65vh;
+    width: 70vw;
+    margin:  140px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpic img{
+    width: 188px;
+    height: 70vh;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Hello{
+    font-size:40px;
+}
+
+.Name{
+    font-size:30px;
+    font-weight: bold;
+}
+
+.About{
+    font-size:20px;
+} 
+
+.buttons{
+    margin-top: 30px;
+}
+
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 12px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+
+.contactform{
+    margin-left: 34px;
+    margin: 0 88px;
+    margin-top: 12px;
+}
+
+.main h1{
+    margin: 12px;
+}
+.main h2{
+    margin: 12px;
+}
+.main p{
+    margin-left: 24px;
+}
+.skillscontainer{
+    padding: 12px;
+}
+
+.skillitem{
+    display: flex;
+    align-items: center;
+}
+.skills{
+    width: 223px;
+    height: 10px;
+    background-color: rgb(228, 10, 10);
+    border: 2px solid black;
+    font-weight: 900;
+}
+
+.hundered{
+    width: 250px;
+    background-color: rgb(228, 10, 10);
+}
+
+.seventyfive{
+    width: 200px;
+    background-color: rgb(10, 228, 28);
+}
+
+.ninty{
+    width: 225px;
+    background-color: rgb(68, 10, 228);
+}
+
+.fifty{
+    width: 25px;
+    background-color: rgb(10, 228, 210);
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 165px;
+}
+
+.Intro{
+    margin: 0 88px;
+}
+
+@media (max-width: 810px){
+    /* *{background-color: red;} */
+    /* .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
+
+    .devpic {
+        display: none;
+    }
+    .Intro, .contactform{
+        margin: 8px;
+    }
+    .contactform{
+        margin-top: 32px;
+        margin-left: 12px;
+    }
+    
+}
+
+
